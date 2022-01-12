@@ -4,6 +4,9 @@
     ],
     "compilerOptions": {
         "strict": true,
+        //暗黙の型推論を制限する
+        "noImplicitAny": false,
+        //Anyの暗黙的な型変換を許可する
         "esModuleInterop": true,
         "lib": [
             "dom",
